@@ -1,0 +1,4 @@
+.main-wrapper {
+  @include padding(36px, 138, 0, 138);
+  background: url("../img/main-wrapper-bg.jpg") no-repeat;
+}

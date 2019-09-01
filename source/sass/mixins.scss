@@ -1,0 +1,7 @@
+@mixin margin($mt: 0, $mr: 0, $mb: 0, $ml: 0, $width: $desktop-width-value) {
+  margin: $mt $mr / $desktop-width-value * 100% $mb $ml / $desktop-width-value * 100%;
+}
+
+@mixin padding($mt: 0, $mr: 0, $mb: 0, $ml: 0, $width: $desktop-width-value) {
+  padding: $mt $mr / $desktop-width-value * 100% $mb $ml / $desktop-width-value * 100%;
+}
