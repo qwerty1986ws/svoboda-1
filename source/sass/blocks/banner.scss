@@ -1,0 +1,32 @@
+.banner {
+	min-height: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 30px;
+
+  &__logo {
+  	align-self: center;
+  }
+
+
+  &__link {
+  	text-decoration: none;
+  	position: relative;
+  	color: #fff;
+  	&::after {
+  		content: "";
+  		position: absolute;
+  		top: 0;
+  		left: -22px;
+  		width: 19px;
+  		height: 19px;
+  		background: url("../img/call.png") no-repeat;
+  		z-index: 9;
+  	}
+
+  }
+
+  &__list {
+  }
+}

@@ -1,0 +1,14 @@
+.gallery {
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+	flex-flow: row wrap;
+
+	&__screen {
+    flex:auto;
+	width: 100%;
+	height: auto;
+	
+	}
+}
